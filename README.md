@@ -34,7 +34,7 @@ Your browser should automatically open to http://localhost:8910 where you'll see
 
 ## Prisma and the database
 
-Redwood wouldn't be a full-stack framework without a database. It all starts with the schema. Open the [`schema.prisma`](api/db/schema.prisma) file in `api/db` and replace the `UserExample` model with the following `Post` model:
+Redwood wouldn't be a full-stack framework without a database. It all starts with the schema. Open the [`schema.prisma`](api/db/schema.prisma) file in `api/db` and replace the `User` model with the following `Post` model:
 
 ```
 model Post {
@@ -119,3 +119,15 @@ The best way to learn Redwood is by going through the comprehensive [tutorial](h
 
 - Stay updated: read [Forum announcements](https://community.redwoodjs.com/c/announcements/5), follow us on [Twitter](https://twitter.com/redwoodjs), and subscribe to the [newsletter](https://redwoodjs.com/newsletter)
 - [Learn how to contribute](https://redwoodjs.com/docs/contributing)
+
+## Seend db
+
+```
+yarn rw exec seed
+```
+
+## Open prisma studio
+
+```
+yarn rw prisma studio
+```
